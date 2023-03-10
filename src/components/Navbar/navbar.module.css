@@ -1,0 +1,35 @@
+
+
+.container{
+    margin: 0;
+    height: 90px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    color: white;
+    background-color: orangered;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    height: 80px;
+    border-radius: 18px;
+}
+
+.categorias{
+    width: 80%;
+    height: 80px;
+}
+
+.categorias ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
